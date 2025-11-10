@@ -38,7 +38,7 @@ st.markdown("""
 def load_data():
     """Load and preprocess the job data"""
     try:
-        df = pd.read_csv('home/darwin/NTU PACE Data Science Cohort 3data/SGJobData.csv')
+        df = pd.read_csv('home/darwin/NTU PACE Data Science Cohort 3/data/SGJobData.csv')
         
         # Convert job_skills from string to list if needed
         if 'job_skills' in df.columns:
